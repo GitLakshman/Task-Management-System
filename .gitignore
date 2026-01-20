@@ -1,0 +1,104 @@
+# ================================
+# Dependencies
+# ================================
+node_modules/
+.pnpm-store/
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ================================
+# Build outputs
+# ================================
+# Backend
+dist/
+build/
+
+# Frontend (Next.js)
+.next/
+out/
+.vercel/
+
+# ================================
+# IDE and Editor files
+# ================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.settings/
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ================================
+# Testing
+# ================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ================================
+# TypeScript
+# ================================
+*.tsbuildinfo
+next-env.d.ts
+
+# ================================
+# Prisma
+# ================================
+# Keep schema but ignore generated client location if customized
+# prisma/migrations/ - Usually want to keep these
+
+# ================================
+# Debug files
+# ================================
+.pnp
+.pnp.js
+
+# ================================
+# Cache
+# ================================
+.cache/
+.eslintcache
+.prettiercache
+.stylelintcache
+
+# ================================
+# Misc
+# ================================
+*.pem
+*.p12
+*.key
+*.cert
+*.pid
